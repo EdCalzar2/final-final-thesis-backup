@@ -1,0 +1,69 @@
+.storyForm {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.5);
+}
+
+.modernInput {
+    width: 100%;
+    border: none;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
+
+.modernInput:focus {
+    outline: none;
+}
+
+.modernButton {
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #fa6194b4;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.modernButton:hover {
+    background-color: #fa6194;
+    color: white;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+.successMessage {
+    color: green;
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.item {
+    width: 100%; /* Changed from 300px */
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 1px rgba(255, 166, 181, 0.693);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.itemName {
+    font-weight: bold;
+    padding: 15px;
+    flex-grow: 1; /* This pushes the button to the bottom */
+}
+
+.deleteButton {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    align-self: stretch;
+    transition: background-color 0.2s ease;
+}
+
+.deleteButton:hover {
+    background-color: #ff3742;
+}

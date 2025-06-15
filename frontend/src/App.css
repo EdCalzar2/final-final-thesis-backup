@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.MainPage {
+    background: #86469C;
+    background: linear-gradient(0deg,rgba(134, 70, 156, 1) 0%, rgba(251, 154, 209, 1) 50%, rgb(250, 97, 148) 100%);
+    min-height: 100vh; /* Changed from height to min-height */
+    width: 100%;
+    /* Removed background-repeat: no-repeat to allow natural extension */
+}
+
+.home {
+    font-size: 50px;
+}
+
+.safetyMap {
+    font-size: 50px;
+}
+
+.story {
+    font-size: 50px;
+}
